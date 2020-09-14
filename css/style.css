@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(76, 221, 242, 1) 11.2%,
+    rgba(92, 121, 255, 1) 91.1%
+  );
+  font-family: "Oxygen", sans-serif;
+  height: 100vh;
+}
+
+#title {
+  margin-top: -50px;
+  margin-bottom: 0px;
+}
+
+svg {
+  background-color: white;
+  position: relative;
+}
+
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-color: #353b48;
+  pointer-events: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.legend-item-rect {
+  stroke: black;
+}
+
+.legend-item-text {
+  font-size: 0.8em;
+}
